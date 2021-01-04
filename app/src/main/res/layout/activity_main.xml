@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/location_permission"
+        android:id="@+id/location_btn"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="#03A9F4"
+        android:padding="3dp"
+        android:layout_marginBottom="5dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/camera_permission"
+        android:id="@+id/camera_btn"
+        android:layout_below="@id/location_btn"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="#F44336"
+        android:padding="3dp"
+        android:layout_marginBottom="5dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/storage_permission"
+        android:id="@+id/storage_btn"
+        android:layout_below="@id/camera_btn"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="#9C27B0"
+        android:padding="3dp"
+        android:layout_marginBottom="5dp"/>
+
+
+</RelativeLayout>

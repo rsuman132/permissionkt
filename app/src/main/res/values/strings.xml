@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">PermissionKt</string>
+    <string name="location_permission">Location Permission</string>
+    <string name="camera_permission">Camera Permission</string>
+    <string name="storage_permission">Storage Permission</string>
+</resources>
